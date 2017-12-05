@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Örnek Mobil Uygulama</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+ 
+    	<div data-role="footer" data-position="fixed" data-theme="a">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="index.html" data-prefetch="true" data-transition="fade">Hakkında</a></li>
+				<li><a href="elma.html" data-prefetch="true" data-transition="flip">Elma</a></li>
+				<li><a href="armut.html" data-prefetch="true" data-transition="turn">Armut</a></li>
+				<li><a href="karpuz.html" data-prefetch="true" data-transition="slide">Karpuz</a></li>
+                <li><a href="kavun.html" data-prefetch="true" data-transition="slide">Kavun</a></li>
+                <li><a href="uzum.html" data-prefetch="true" data-transition="slide">Uzum</a></li>
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+
+    
+    <form>
+    <input id="filter-for-listview" data-type="search" placeholder="Aramak İstediğiniz Kelime...">
+</form>
+<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
+    <li><a href="elma.html">elma</a></li>
+    <li><a href="armut.html">armut</a></li>
+    <li><a href="uzum.html">üzüm</a></li>
+    <li><a href="kavun.html">kavun</a></li>
+    <li><a href="karpuz.html">karpuz</a></li>
+</ul>
+    
+</body>
+    
+</html>
